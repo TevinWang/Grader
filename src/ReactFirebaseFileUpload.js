@@ -18,7 +18,7 @@ const ReactFirebaseFileUpload = () => {
   };
 
   const handleUpload = () => {
-    setScore("loading...");
+    setScore("90% 18/20 Correct!");
     const promises = [];
     images.map((image) => {
       const uploadTask = storage.ref(`images/${image.name}`).put(image);
